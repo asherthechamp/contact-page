@@ -1,0 +1,123 @@
+html {
+    margin: 0;
+    padding: 0;
+    background: url("./assets/images/bg-image.svg") no-repeat center center fixed;
+    background-size: cover;
+}
+body {
+
+}
+
+.logo {
+    margin: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    color: #FFFFFF;
+    font-family: Be Vietnam Pro;
+    text-align: center;
+}
+
+.formcard {
+    background-color:rgba(205, 213, 224, 0.3);
+    padding: 25px 25px;
+    border-radius: 15px;
+    width: 70vw;
+    /* max-width: 1024px; */
+
+}
+
+.formtop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.ctrl {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 8px;
+}
+
+.formlabel {
+    color: #FFFFFF;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+}
+
+.textinput {
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    padding: 0px 10px;
+    font-family: Be Vietnam Pro;
+    font-weight: bold;
+    color: #111729;
+}
+
+.textareainput {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-family: Be Vietnam Pro;
+    font-weight: bold;
+    color: #111729;
+}
+
+.sizeselect {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-family: Be Vietnam Pro;
+    font-weight: bold;
+    color: #111729;
+}
+
+.sizeoption {
+    font-family: Be Vietnam Pro;
+    font-weight: bold;
+    color: #111729;
+}
+
+*:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #CDD5E0;
+}
+
+.smtbtn {
+    width: 100%;
+    border: none;
+    background-color: #FFFFFF;
+    font-family: Be Vietnam Pro;
+    font-weight: bold;
+    color: #4036A9;
+    border-radius: 10px;
+    height: 35px;
+
+}
+
+@media screen and (min-width:640px) {
+    .formtopleft, .formtopright {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .ctrl {
+        width: 100%;
+    }
+   
+}
