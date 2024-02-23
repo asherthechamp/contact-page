@@ -4,12 +4,10 @@ html {
     background: url("./assets/images/bg-image.svg") no-repeat center center fixed;
     background-size: cover;
 }
-body {
-
-}
 
 .logo {
-    margin: 25px;
+    margin-top: 25px;
+    margin-left: 60px;
 }
 
 main {
@@ -23,6 +21,8 @@ main {
     color: #FFFFFF;
     font-family: Be Vietnam Pro;
     text-align: center;
+    width: 60vw;
+    margin-bottom: 35px;
 }
 
 .headertext {
@@ -37,9 +37,8 @@ main {
     background-color:rgba(205, 213, 224, 0.3);
     padding: 25px 25px;
     border-radius: 15px;
-    width: 70vw;
-    /* max-width: 1024px; */
-
+    width: 60vw;
+    margin-bottom: 100px;
 }
 
 .formtop {
@@ -61,11 +60,11 @@ main {
     color: #FFFFFF;
     font-family: Be Vietnam Pro;
     font-size: 14px;
-    margin: 2px 0px;
+    margin: 4px 0px;
 }
 
 .textinput {
-    height: 50px;
+    height: 75px;
     border: none;
     border-radius: 10px;
     padding: 0px 10px;
@@ -92,7 +91,7 @@ main {
     font-family: Be Vietnam Pro;
     font-weight: bold;
     color: #111729;
-    height: 50px;
+    height: 75px;
 }
 
 .sizeoption {
@@ -118,7 +117,7 @@ main {
     font-size: 20px;
     color: #4036A9;
     border-radius: 10px;
-    height: 50px;
+    height: 75px;
     margin-top: 15px;
 }
 
